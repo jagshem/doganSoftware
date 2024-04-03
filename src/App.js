@@ -26,7 +26,7 @@ function App() {
           <FlipClockCountdown
             className='flip-clock'
             to={targetTime}
-            labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
+            labels={["GÜN", "SAAT", "DAKİKA", "SANİYE"]}
             duration={0.5}
           />
           <button className="button">Bize Ulaşın</button>
