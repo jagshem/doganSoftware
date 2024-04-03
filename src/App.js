@@ -12,7 +12,7 @@ function App() {
       .then(response => response.json())
       .then(data => {
         const targetDate = new Date(data.startTime);
-        targetDate.setDate(targetDate.getDate() + 60); // 60 gün sonrası
+        targetDate.setDate(targetDate.getDate() + 90); // 60 gün sonrası
         setTargetTime(targetDate.getTime());
       });
   }, []);
