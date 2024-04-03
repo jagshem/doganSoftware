@@ -29,7 +29,9 @@ function App() {
             labels={["GÜN", "SAAT", "DAKİKA", "SANİYE"]}
             duration={0.5}
           />
-          <button className="button">Bize Ulaşın</button>
+          <button className="button"><a href="https://www.neslicesoft.com.tr/" target="_blank" rel="noopener noreferrer">
+              Bize Ulaşın
+            </a></button>
           <div className="social-icons">
             <a href="https://www.instagram.com/t.dogannnnn" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
