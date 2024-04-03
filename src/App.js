@@ -29,7 +29,7 @@ function App() {
             labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
             duration={0.5}
           />
-          <button className="button">Notify Me</button>
+          <button className="button">Bize Ulaşın</button>
           <div className="social-icons">
             <a href="https://www.instagram.com/t.dogannnnn" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
