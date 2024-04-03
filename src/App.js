@@ -37,7 +37,7 @@ function App() {
             <a href="https://t.me/melinkof" target="_blank" rel="noopener noreferrer">
               <FaTelegramPlane />
             </a>
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/N2HNuzrT" target="_blank" rel="noopener noreferrer">
               <FaDiscord />
             </a>
           </div>
