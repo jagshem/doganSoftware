@@ -1,6 +1,6 @@
 // netlify/functions/get-start-time.js
 exports.handler = async (event, context) => {
-  const startTime = new Date().toISOString();
+  const startTime = process.env.START_TIME;
 
   return {
     statusCode: 200,
