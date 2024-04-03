@@ -8,11 +8,11 @@ function App() {
   const [targetTime, setTargetTime] = useState(0);
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/start-time')
+    fetch('/.netlify/functions/get-start-time')
       .then(response => response.json())
       .then(data => {
         const targetDate = new Date(data.startTime);
-        targetDate.setDate(targetDate.getDate() + 90); // 60 gün sonrası
+        targetDate.setDate(targetDate.getDate() + 60); // 60 gün sonrası
         setTargetTime(targetDate.getTime());
       });
   }, []);
