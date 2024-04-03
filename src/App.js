@@ -21,8 +21,8 @@ function App() {
     <div className="main-container">
       <section className="container">
         <div className="clock_content">
-          <h1>Yakın Zamanda Buradayız</h1>
-          <h3>Bulut Web Muhasebe ihtiyaçlarınızın hepsi tek bir noktada. <br /> Gelişmelerden haberdar olmak için takip et!</h3>
+          <h1>Yakın Zamanda Buradayız...</h1>
+          <h3>Bulut Web Muhasebe ihtiyaçlarınızın hepsi burada! <br /> Gelişmelerden haberdar olmak için takip et!</h3>
           <FlipClockCountdown
             className='flip-clock'
             to={targetTime}
